@@ -28,7 +28,7 @@
 	</tr>
 	<tr class="alt">
 		<td>09/21/2024</td>
-		<td>at Oklahoma State</td>
+		<td>@ Oklahoma State</td>
 		<td></td>
 		<td></td>
 	</tr>
