@@ -4,7 +4,7 @@
 </div>
 <div id="headText">
 				<span class="title">Welcome to Bob's Ute Football Video Archive!</span><br /><br />
-				Please choose a season from the left to see the available videos and get the torrent files. Last updated: <b>02/04/2024</b><br />
+				Please choose a season from the left to see the available videos and get the torrent files. Last updated: <b>08/02/2024</b><br />
 			If you want to help out please consider donating to help me keep up with server costs: <?php include 'includes/donate.php' ?> <br />
 </div>
 <div id="wrapper">
