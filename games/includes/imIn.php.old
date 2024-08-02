@@ -1,0 +1,106 @@
+<body style="background-color: #000000;">
+<!-- alternate background: add background-image: url('images/Red-Background.jpg'); -->
+<div id="page">
+	<div id="menuBar">
+		<ul class="menuStyle2">
+			<li><a href="javascript:" onClick = show(1988)>1988</a></li>
+			<li><a href="javascript:" onClick = show(1994)>1994</a></li>
+			<li><a href="javascript:" onClick = show(1995)>1995</a></li>
+			<li><a href="javascript:" onClick = show(2003)>2003</a></li>
+			<li><a href="javascript:" onClick = show(2004)>2004</a></li>
+			<li><a href="javascript:" onClick = show(2005)>2005</a></li>
+			<li><a href="javascript:" onClick = show(2006)>2006</a></li>
+			<li><a href="javascript:" onClick = show(2007)>2007</a></li>
+			<li><a href="javascript:" onClick = show(2008)>2008</a></li>
+			<li><a href="javascript:" onClick = show(2009)>2009</a></li>
+		</ul>
+		<ul class="menuStyle2">
+			<li><a href="javascript:" onClick = show(2010)>2010</a></li>
+			<li><a href="javascript:" onClick = show(2011)>2011</a></li>
+			<li><a href="javascript:" onClick = show(2012)>2012</a></li>
+			<li><a href="javascript:" onClick = show(2013)>2013</a></li>
+			<li><a href="javascript:" onClick = show(2014)>2014</a></li>
+			<li><a href="javascript:" onClick = show(2015)>2015</a></li>
+		</ul>
+		<br />
+		<ul class="menuStyle">
+			<li><a href="javascript:" onClick = expandAll()>Expand All</a></li>
+			<li><a href="javascript:" onClick = collapseAll()>Collapse All</a></li>
+			<li><a href="logout.php">Log out</a></li>
+		</ul>
+	</div>
+	<br />&nbsp;
+	<br />
+	<center>Please choose a year from above to see the available videos and get the torrent files. Last updated: <b>12/22/2015</b></center><br />
+	<center><!--If you want to help out please consider donating to help me keep up with server costs: --><? include 'includes/donate.php' ?></center> <br />
+	<center>**UPDATE** Click <a href="g.php?f=UT2016SpringGame">HERE</a> to download the 2016 Spring Game!!</center><br />
+			<center>I am using a seedbox to keep my torrent speeds up and make the recordings always available.  If you are able, I would be forever grateful
+			for any donations you would be willing to impart for this expense.  I am paying for it myself and don't want to put up any ads if I can help it.</center><br />
+			<center>Thanks again for your continued support, and <b>Go Utes!</b></center>
+	<div id="vidlist">
+		<div id="1988" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch1988-89.php' ?>
+		</div>
+		<div id="1994" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch1994-95.php' ?>
+		</div>
+		<div id="1995" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch1995-96.php' ?>
+		</div>
+		<div id="2003" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2003-04.php' ?>
+		</div>
+		<div id="2004" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2004-05.php' ?>
+		</div>
+		<div id="2005" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2005-06.php' ?>
+		</div>
+		<div id="2006" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2006-07.php' ?>
+		</div>
+		<div id="2007" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2007-08.php' ?>
+		</div>
+		<div id="2008" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2008-09.php' ?>
+		</div>
+		<div id="2009" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2009-10.php' ?>
+		</div>
+		<div id="2010" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2010-11.php' ?>
+		</div>
+		<div id="2011" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2011-12.php' ?>
+		</div>
+		<div id="2012" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2012-13.php' ?>
+		</div>
+		<div id="2013" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2013-14.php' ?>
+		</div>
+		<div id="2014" style = "display: none;" class="schedule">
+			<br />
+			<? include 'includes/sch2014-15.php' ?>
+		</div>
+		<div id="2015" style = "display: block;" class="schedule">
+			<br />
+			<? include 'includes/sch2015-16.php' ?>
+		</div>
+	</div>
+</div>

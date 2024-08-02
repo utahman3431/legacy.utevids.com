@@ -1,0 +1,87 @@
+body{
+	background-image: url('../images/bg2.jpg');
+	bckground-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+	opacity:0;
+	/* Calls the ease-in animation on the fadeIn Keyframe */
+	-webkit-animation:fadeIn ease-in 1;
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	
+	/* Once the animation is done, it will stay at the most opaque state possible */
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+	
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;	
+}
+
+.fade-in.one  {
+	-webkit-animation-delay:0.8s;
+	-moz-animation-delay:0.8s;
+	animation-delay:0.8s;
+}
+
+.fade-in.two {
+		-webkit-animation-delay:1.8s;
+	-moz-animation-delay:1.8s;
+	animation-delay:1.8s;
+}
+.lower {
+	margin-top: 200px;
+}
+.shadow {
+	-moz-box-shadow: 10px 10px 20px #000;
+	-webkit-box-shadow: 10px 10px 20px #000;
+	box-shadow: 10px 10px 20px #000;
+}
+.pwBox {
+	border-radius: 5px;
+}
+.timerBox {
+	width: 650px;
+/*	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	bottom: 50%; */
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 25px;
+	font-size: 18px;
+	text-align: center;
+	background-color: #ffffff;
+}
+.timerTitle {
+	font-size: 36px;
+	font-weight: bold;
+}
+.loginBox {
+	width: 350px;
+/*	margin-left: auto;
+	margin-right: auto;
+	top: 50%;
+	bottom: 50%; */
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 25px;
+	font-size: 18px;
+	text-align: center;
+	background-color: #ffffff;
+}

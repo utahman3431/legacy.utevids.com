@@ -1,0 +1,191 @@
+/***********************************
+Main Document style
+***************************************/
+a:link {
+	text-decoration: none;
+	font-weight: bold;
+	color: #a00000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+a:visited {
+	color: #a00000;
+}
+
+#main {
+	
+}
+.smallTxt {
+	font-size: 18px;
+}
+
+/**************************************
+Login Page style
+***************************************/
+#loginBox {
+	width: 350px;
+	font-size: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.loginstyle {
+	font-size: 18px;
+	text-align: left;
+}
+
+#page {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ffffff;
+	min-height: 100px;
+	padding: 2px;
+}
+
+
+/**************************************
+Menu style
+***************************************/
+.menuLink {
+	vertical-align: middle;
+	width: 100px;
+	height: 25px;
+	border-right: 1px solid #000000;
+	padding: 2px;
+	margin-left: 0;
+}
+
+ul.menuStyle, ul.menuStyle2{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+ul.menuStyle li, ul.menuStyle2 li {
+	display: inline;
+	float: left;
+	text-align: center;	
+
+}
+ul.menuStyle li a {
+	display: block;
+	width: 100px;
+}
+ul.menuStyle2 li a {
+	display: block;
+	width: 80px;
+}
+ul.menuStyle li a:link, ul.menuStyle2 li a:link {
+	background-color: #cc0000;
+	color: #ffffff;
+}
+
+ul.menuStyle li a:visited, ul.menuStyle2 li a:visited {
+	background-color: #cc0000;
+	color: #ffffff;
+}
+
+ul.menuStyle li a:hover, ul.menuStyle2 li a:hover {
+	background-color: #808080;
+	color: #000000;
+	text-decoration: none;
+}
+
+/**************************************
+Table Data style
+***************************************/
+table.seasonTable {
+	border-collapse: collapse;
+	width: 100%;
+}
+table.seasonTable, table.seasonTable th, table.seasonTable td {
+	border: 2px solid #808080;
+}
+
+table.seasonTable th {
+	background-color: #cc0000;
+	color: #ffffff;
+	height: 30px;
+}
+table.seasonTable th h1 {
+	font-size: 26px;
+}
+table.seasonTable tr.alt td {
+	background-color: #808080;
+	color: #ffffff;
+}
+table.seasonTable td {
+	background-color: #ffffff;
+	color: #000000;
+	text-align: center;
+}
+table.seasonTable td a {
+	width: 100%;	
+	height: 100%;
+	display: block;
+}
+table.seasonTable td a, table.seasonTable td a:visited {
+		color: #cc0000;
+		text-decoration: none;
+		background-color: #ffffff;
+		color: #000000;
+}
+table.seasonTable tr.alt td a, table.seasonTable tr.alt td a:visited {
+	background-color: #808080;
+	color: #ffffff;
+}
+table.seasonTable td a:hover , table.seasonTable tr.alt td a:hover {
+	background-color: #cc0000;
+	color: #000000;
+}
+
+/**************************************************
+                  Donate Button
+**************************************************/
+.dButton {
+	width: 100px;
+	height: 25px;
+}
+
+/**************************************************
+					Test Script
+**************************************************/
+.hiddendiv {display:none;}
+.visiblediv {display:block;}
+
+
+/**************************************************
+        Youtube Formatting
+**************************************************/
+.ytMenu {
+	padding-left: 4px;
+	padding-right: 4px;
+	border: 1px solid #000000;
+	background-color: #ffffff;
+}
+
+.ytEmbeds {
+	text-align: center;
+	padding-bottom: 20px;
+	width: 750px;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+}
+
+.ytGameTitle {
+	font-weight: bold;
+	font-size: 36px;
+	color: #808080;
+	text-decoration: underline;
+}
+
+.ytGame {
+	border: 1px solid #cc0000;
+	margin: 10px;
+}
+.ytVidMenu {
+	margin-top: 10px;
+}
